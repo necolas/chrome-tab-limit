@@ -19,8 +19,6 @@ function updateTabsCount() {
         tabsCount = tabs.length;
         updateBadgeText();
     });
-
-    console.log(tabsCount);
 }
 
 function handleTabCreated(tab) {
